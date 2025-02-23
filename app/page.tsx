@@ -108,7 +108,7 @@ export default function TodoList() {
                           />
                           <label
                             htmlFor={`todo-${todo.id}`}
-                            className={`${todo.completed ? "line-through text-gray-500 dark:text-gray-400" : "text-gray-900 dark:text-white"} flex-grow`}
+                            className={`${todo.completed ? "line-through text-gray-500 dark:text-gray-400" : "text-gray-900 dark:text-white"} flex-grow overflow-wrap-break-word`}
                           >
                             {todo.text}
                           </label>
